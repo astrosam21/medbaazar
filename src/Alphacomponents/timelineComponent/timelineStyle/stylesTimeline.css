@@ -1,0 +1,19 @@
+.page{
+    margin:0px 10px 10px 10px;
+}
+.interactions{
+    text-align:center;
+}
+.list{
+    margin: 0px 10px;
+}
+
+.list-row {
+    display: flex;
+    line-height:24px;
+    white-space:nowrap;
+    margin: 10px 0;
+    padding: 10px;
+    background:#ffffff;
+    border: 1px solid #e3e3e3;
+}

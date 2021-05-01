@@ -1,0 +1,23 @@
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 40px;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+    background: #d81b60;
+    float: center;
+    position: relative;
+}
+
+.editicon {
+    position: absolute;
+    display: none;
+}
+
+.circle:hover .editicon {
+    cursor: pointer;
+    display: inline-block;
+    color: black;
+}

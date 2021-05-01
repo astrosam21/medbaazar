@@ -1,0 +1,77 @@
+ .timeline-element{
+    position: 'relative';
+    margin:'10px 0'
+  }
+  .timeline-element-left {
+    paddingLeft: 45;
+    textAlign:'left'
+  }
+ .iconType{
+    position: 'absolute';
+    top: 0;
+    borderRadius: '50%';
+    width: 30;
+    height: 30;
+    marginLeft: 1;
+    background: '#e9f0f5';
+    border: '2px solid #6fba1c';
+    display: 'flex'
+ }
+ .eventAfter{
+     clear:'both';
+     content:'';
+     display: 'table'
+ }
+ .materialIcons{
+    display: 'flex';
+    width: 32;
+    height: 32;
+    position: 'relative';
+    justifyContent: 'center';
+    alignSelf: 'center';
+    alignItems: 'center'
+  }
+ .eventContainer {
+    position: 'relative'
+  }
+   .eventContainerBefore{
+    top: 24;
+    left:'100%';
+    borderColor:'transparent';
+    borderLeftColor: '#ffffff'
+  }
+   .card{
+    boxShadow: '0 12px 20px -10px rgba(255, 255, 255, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 255, 255, 0.2)';
+    background-color: "#ec407a";
+    color: "#555555";
+    border-radius: "3px";
+   
+  }
+   .cardTitle{
+    backgroundColor: '#ffffff';
+    padding: 10;
+    color: '#fff'
+  }
+  .cardBody {
+    backgroundColor: '#ffffff';
+    marginBottom: '1em';
+    lineHeight: 1.6;
+    padding: 10;
+    minHeight: 40
+  }
+  .time {
+    marginBottom: 3
+  }
+  .subtitle{
+    marginTop: 2;
+    fontSize: '85%';
+    color: '#777'
+  }
+  .actionButtons {
+    marginTop: -20;
+    float: 'right';
+    text-align:'right'
+  }
+  .toggleEnabled{
+    cursor: 'pointer'
+  }

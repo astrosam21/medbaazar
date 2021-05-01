@@ -1,0 +1,104 @@
+
+body {
+    background-color: #eee;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+.onhover:hover {
+    cursor: pointer;
+    background-color: #eee;
+}
+.onlyhover:hover {
+    cursor: pointer;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #eeeeee;
+    border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #aaaaaa;
+    border-radius: 15px;
+}
+@media screen and (min-width: 1200px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+.custom-file-upload {
+    display: inline-block;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bolder;
+    text-align: center;
+    float: right;
+}
+.file {
+    visibility: hidden;
+}
+
+.Links {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 32px !important;
+}
+
+h2 {
+    font-size: 24px !important;
+}
+
+h3 {
+    font-size: 18.72px !important;
+}
+
+h4 {
+    font-size: 16px !important;
+    font-weight: bold !important ;
+}
+
+h5 {
+    font-size: 13.28px !important;
+}
+
+h6 {
+    font-size: 10.72px !important;
+}
+
+p {
+    font-size: 16px !important;
+}

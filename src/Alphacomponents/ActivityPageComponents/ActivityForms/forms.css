@@ -1,0 +1,309 @@
+.editor-input{
+	background-color: "grey";
+	border-width: 2px;
+	border-color: black;
+	boxShadow: 'rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px';
+}
+.createButtonNote{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-top: 10px
+}
+.wrapper{
+	display: grid;
+    grid-template-columns:2fr 2fr 2fr;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px,auto);
+}
+
+.properties{
+	word-spacing:185px;
+	padding-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:18px;
+    border-collapse: collapse;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+@media only screen and (min-width:1024px) and (min-width:968px){
+	.properties{
+	word-spacing:185px;
+	padding-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:18px;
+    border-collapse: collapse;
+    border-bottom: 1px solid #BDBDBD;
+}
+}
+
+.titlejson{
+	padding-left: 199px;
+}
+
+.title-date{
+	padding-left: 529px;
+	margin-top: -17px;
+	padding-right: 10px;
+}
+
+.email-list{
+	margin-left:330px;
+	margin-top: 170px;
+}
+
+@media only screen and (max-width:1024px) and (min-width:768px){
+.email-list{
+	margin-left:90px;
+	margin-top: 170px;
+}
+}
+
+@media only screen and (max-width:426px) and (min-width:400px){
+.email-list{
+	margin-left:76px;
+	margin-top: 100px;
+}
+}
+
+@media only screen and (max-width:375px) and (min-width:370px){
+.email-list{
+	margin-left:46px;
+	margin-top: 100px;
+}
+}
+
+@media only screen and (max-width:320px) and (min-width:300px){
+.email-list{
+	margin-left:26px;
+	margin-top: 100px;
+}
+}
+
+.create-new-not{
+	margin-left:416px;
+	margin-top: 100px;
+}
+
+@media only screen and (max-width:1024px) and (min-width:768px){
+.create-new-not{
+	margin-left:216px;
+	margin-top: 100px;
+}
+}
+
+@media only screen and (max-width:426px) and (min-width:400px){
+.create-new-not{
+	margin-left:26px;
+	margin-top: 100px;
+}
+}
+
+@media only screen and (max-width:375px) and (min-width:320px){
+.create-new-not{
+	margin-left:36px;
+	margin-top: 100px;
+}
+}
+
+.add-phone{
+	margin-left:120px;
+	margin-top: 30px;
+}
+
+@media only screen and (max-width:426px) and (min-width:320px){
+.add-phone{
+	margin-left:20px;
+	margin-top: 30px;
+}
+}
+
+.log-activities{
+	display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px,auto);
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.log-activities-btn{
+    margin-left:420px;
+	margin-top: 140px;	
+}
+
+@media only screen and (max-width:1024px) and (min-width:768px){
+.log-activities-btn{
+    margin-left:220px;
+	margin-top: 140px;
+}
+}
+
+@media only screen and (max-width:426px) and (min-width:420px){
+.log-activities-btn{
+    margin-left:50px;
+	margin-top: 40px;
+}
+}
+
+@media only screen and (max-width:375px) and (min-width:320px){
+.log-activities-btn{
+    margin-left:0px;
+	margin-top: 0px;
+}
+}
+
+.mack-schedule{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px,auto);
+    justify-items: stretch;
+    align-items: stretch;	
+}
+
+.mack-schedule-btn{
+	margin-left:420px;
+	margin-top: 10px;
+}
+
+@media only screen and (max-width:1024px) and (min-width:768px){
+.mack-schedule-btn{
+    margin-left:220px;
+	margin-top: 10px;
+}
+}
+
+@media only screen and (max-width:426px) and (min-width:400px){
+.mack-schedule-btn{
+    margin-left:50px;
+	margin-top: 10px;
+}
+}
+
+@media only screen and (max-width:378px) and (min-width:350px){
+.mack-schedule-btn{
+    margin-left:27px;
+	margin-top: 10px;
+}
+}
+
+@media only screen and (max-width:320px) and (min-width:310px){
+.mack-schedule-btn{
+    margin-left:2px;
+	margin-top: 10px;
+}
+}
+
+.value-components{
+    border-bottom:'1px solid #E0E0E0';
+	width: 666px;
+}
+
+@media only screen and (max-width:320px) and (min-width:310px){
+.value-components{
+    border-bottom:'1px solid #E0E0E0';
+	width: 666px;
+}
+}
+
+.about-deals-description{
+	display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px,auto);
+    justify-items: stretch;
+    align-items: stretch;
+    margin-left: 32px;
+    margin-top: 44px;
+}
+
+@media only screen and (max-width:426px) and (min-width:310px){
+.about-deals-description{
+	display: grid;
+    grid-template-columns:1fr 1fr  ;
+    grid-auto-rows: minmax(100px,auto);
+    justify-items: stretch;
+    align-items: stretch;
+    margin-left: 44px;
+}
+}
+
+.deals-content{
+	grid-column: 1/4;
+	grid-row: 2;
+	margin-left: 244px;
+}
+
+@media only screen and (max-width:1024px) and (min-width:767px){
+.deals-content{
+	grid-column: 1/4;
+	grid-row: 2;
+	margin-left: 10px;
+}
+}
+
+@media only screen and (max-width:426px) and (min-width:420px){
+.deals-content{
+	grid-column: 1/4;
+	grid-row: 2;
+	margin-left: 0px;
+}
+}
+
+@media only screen and (max-width:376px) and (min-width:320px){
+.deals-content{
+	grid-column: 1/4;
+	grid-row: 2;
+	margin-left: -40px;
+}
+}
+
+.deals-content-components{
+	grid-column: 1/4;
+	grid-row: 1;
+	margin-left: 44px;
+}
+
+.edit-deals-components{
+	margin-left: 44px;
+}
+
+.save-btn{
+	padding-left: 366px;
+}
+
+@media only screen and (max-width:426px) and (min-width:350px){
+.save-btn{
+	padding-left: 0px;
+}
+}
+.customTitleInput {
+  border: none;
+
+  font-weight: 400;
+  font-size: 48px;
+  color: #000;
+  padding-left: 0;
+  outline: none;
+  margin-right: 10px;
+  margin-left: 1px;
+ 
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+.aBitMargin {
+  margin-right: 10px;
+}
+
+.title-wrapper {
+  display: -webkit-inline-box;
+}
+
+.title-wrapper > .ui.mini.button {
+  line-height: 0.4em!important;
+}
+
+.title-wrapper > .ui.buttons > .ui.mini.button {
+  line-height: 0.4em!important;
+  font-size: .78571429rem;
+}

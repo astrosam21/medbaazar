@@ -1,0 +1,12 @@
+.editor-input{
+	background-color: "grey";
+	border-width: 2px;
+	border-color: black;
+	boxShadow: 'rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px';
+}
+.createButtonNote{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-top: 10px
+}

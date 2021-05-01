@@ -1,0 +1,1 @@
+export const STORE_ACCOUNT_ID="STORE_ACCOUNT_ID"
