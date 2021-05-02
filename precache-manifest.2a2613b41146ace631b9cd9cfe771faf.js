@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed78238b892a646ccf0249e73136f137",
+    "revision": "c4caa31017b46b997e2855905f74c4ef",
     "url": "/medbaazar/index.html"
   },
   {
-    "revision": "5f8d00b68c181e326805",
+    "revision": "9e391446d077318660c4",
     "url": "/medbaazar/static/css/2.4b3dd924.chunk.css"
   },
   {
-    "revision": "a6a8abebb74beb8ccea9",
+    "revision": "ba18fa6123cbed747205",
     "url": "/medbaazar/static/css/main.ff1ff965.chunk.css"
   },
   {
-    "revision": "5f8d00b68c181e326805",
-    "url": "/medbaazar/static/js/2.cf69e7e6.chunk.js"
+    "revision": "9e391446d077318660c4",
+    "url": "/medbaazar/static/js/2.a2188fa8.chunk.js"
   },
   {
     "revision": "804f70cc7a46d1cb46bd6f96af2cd2c4",
-    "url": "/medbaazar/static/js/2.cf69e7e6.chunk.js.LICENSE.txt"
+    "url": "/medbaazar/static/js/2.a2188fa8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a6a8abebb74beb8ccea9",
-    "url": "/medbaazar/static/js/main.3cda1038.chunk.js"
+    "revision": "ba18fa6123cbed747205",
+    "url": "/medbaazar/static/js/main.8498a3e4.chunk.js"
   },
   {
     "revision": "5545676c1bb405ab85fb",
