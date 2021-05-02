@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Mask from "./masks.jpg";
 import Button from "components/CustomButtons/Button";
 import { withRouter } from "react-router-dom";
 class Item extends Component {
