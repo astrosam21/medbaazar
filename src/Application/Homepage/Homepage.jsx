@@ -20,6 +20,7 @@ class Homepage extends Component {
         }}
       >
         <Carousel></Carousel>
+        // this is homepage
         <BrandList />
         <ProductPage />
       </div>
