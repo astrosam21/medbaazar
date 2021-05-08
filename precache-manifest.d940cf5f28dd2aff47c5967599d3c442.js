@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9808aa09923e193f3965766bc1835193",
+    "revision": "c9accfc222351607f28bfb2e1f074207",
     "url": "/medbaazar/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/medbaazar/static/css/2.4b3dd924.chunk.css"
   },
   {
-    "revision": "7272c7ed46270f3d77e1",
+    "revision": "ba7ae1f0e646c93cb2b7",
     "url": "/medbaazar/static/css/main.ff1ff965.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/medbaazar/static/js/2.f689c2a9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7272c7ed46270f3d77e1",
-    "url": "/medbaazar/static/js/main.538c04cf.chunk.js"
+    "revision": "ba7ae1f0e646c93cb2b7",
+    "url": "/medbaazar/static/js/main.f19810a0.chunk.js"
   },
   {
     "revision": "5545676c1bb405ab85fb",
