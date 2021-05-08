@@ -25,6 +25,9 @@ import Treatments from "./Application/Categories/Treatments/Treatments";
 import ItemDetails from "./Application/Components/Products/ItemDetails";
 import Cart from "./Application/Components/Products/Cart/Cart";
 import TopHeader from "./Application/Homepage/Menu/TopHeader";
+import LoginSignup from "./Application/User/LoginSignup";
+import Accordian from "./MedComponents/Accordian";
+import Categories from "./Application/Categories/Categories";
 const styles = () => ({
   container: {
     marginRight: "auto",
@@ -48,6 +51,13 @@ class App extends React.Component {
       <div className="App">
         <div className={classes.container}>
           <TopHeader />
+
+          <Route exact path="/LoginSignup/:userId" component={LoginSignup} />
+          <Route
+            exact
+            path="/chooseCategory/:category"
+            component={Categories}
+          />
         </div>
         <ErrorAlert />
       </div>

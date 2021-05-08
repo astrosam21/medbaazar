@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 
 class SecondNav extends Component {
   state = {
@@ -38,20 +38,14 @@ class SecondNav extends Component {
           <div
             style={{
               marginLeft: "10px",
-              // marginTop: "30px",
-              // marginBottom: "10px",
               marginRight: "10px",
               padding: 15,
             }}
+            onClick={() =>
+              this.props.history.push(`/chooseCategory/${item.link}`)
+            }
           >
-            <Link
-              onClick={() => {
-                this.props.setActive(item.id);
-              }}
-              to={{ pathname: `/non-prescription/${item.link}` }}
-            >
-              {item.name}
-            </Link>
+            {item.name}
           </div>
         ))}
       </div>
@@ -59,4 +53,4 @@ class SecondNav extends Component {
   }
 }
 
-export default SecondNav;
+export default withRouter(SecondNav);

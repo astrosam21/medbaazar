@@ -807,7 +807,10 @@ export default function TopHeader() {
                 round
                 simple
                 size="lg"
-                onClick={handleProfileMenuOpen}
+                onClick={(e) => {
+                  handleProfileMenuOpen(e);
+                  history.push("/LoginSignup/refsgrfd243546");
+                }}
               >
                 <AccountCircle style={{ height: 40, width: 40 }} />
                 Login / Sign up
@@ -911,26 +914,17 @@ export default function TopHeader() {
           </Button>
         </div>
         <SecondNav
-          setActive={(p) => {
-            console.log(p);
-            setActive(p);
-          }}
+        // setActive={(p) => {
+        //   console.log(p);
+        //   setActive(p);
+        // }}
         />
         <Switch>
           <Route exact path="/" component={Homepage} />
           <Route exact path="/non/:itemName" component={ItemDetails} />
           <Route exact path="/mycart" component={Cart} />
           <GridContainer style={{ marginTop: 20 }}>
-            <GridItem>
-              {console.log(active)}
-              <Accordian
-                active={data.findIndex((i) => i.id === active)}
-                handleSelect={(id) => {
-                  this.handleSelect(id);
-                }}
-                collapses={data}
-              />
-            </GridItem>
+            <GridItem></GridItem>
             <GridItem>
               <Route
                 exact
@@ -940,9 +934,18 @@ export default function TopHeader() {
             </GridItem>
           </GridContainer>
         </Switch>
-        {renderMobileMenu}
-        {renderMenu}
       </div>
     </div>
   );
 }
+
+// {
+//   console.log(active);
+// }
+// <Accordian
+//   active={data.findIndex((i) => i.id === active)}
+//   handleSelect={(id) => {
+//     this.handleSelect(id);
+//   }}
+//   collapses={data}
+// />;
