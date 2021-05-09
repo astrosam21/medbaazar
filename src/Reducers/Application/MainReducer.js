@@ -1,11 +1,14 @@
 import {
   GET_USER_DATA,
+  LOG_OUT,
   UPDATE_USER_DATA,
 } from "../../Action/Application/User/UserActionTypes";
 
 const INITIAL_STATES = {
+  isLoggedIn: true,
   userData: {
-    login: {},
+    userId: "",
+
     account: {
       firstName: "",
       lastName: "",
@@ -35,15 +38,17 @@ const INITIAL_STATES = {
         paymentMethod: "COD",
         referenceNumber: "",
 
-        products: [{ name: "", price: "", discount: "", quantity }, {}, {}],
+        products: [{ name: "", price: "", discount: "", quantity: 5 }, {}, {}],
       },
     ],
     wallet: { accountBalance: "", transactions: [{}, {}, {}] },
     savedCards: [{ cardNumber: "", nameOnCard: "", cvv: "" }, {}],
   },
 };
-export const productsReducer = (state = INITIAL_STATES, action) => {
+export const mainReducer = (state = INITIAL_STATES, action) => {
   switch (action.type) {
+    case LOG_OUT:
+      return (state = { ...state, isLoggedIn: action.payload });
     case GET_USER_DATA:
       return (state = { ...state, userData: action.products });
     case UPDATE_USER_DATA:

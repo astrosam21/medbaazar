@@ -15,6 +15,7 @@ import authReducer from "../Reducers/AuthReducer/authReducer";
 
 import { alphaReducer } from "../Reducers/AlphaReducer/alphaReducer";
 import { productsReducer } from "../Reducers/Application/Products/ProductsReducer";
+import { mainReducer } from "../Reducers/Application/MainReducer";
 const rootReducer = combineReducers({
   Table: TableReducer,
   //board:boardReducer
@@ -31,6 +32,7 @@ const rootReducer = combineReducers({
   alphaReducer: alphaReducer,
   //////////////////////
   productsReducer: productsReducer,
+  mainReducer: mainReducer,
 });
 
 export default rootReducer;

@@ -1,7 +1,7 @@
 import React from "react";
 import loginImg from "../login.png";
-
-export class Register extends React.Component {
+import "./style.scss";
+class Register extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -9,9 +9,7 @@ export class Register extends React.Component {
   render() {
     return (
       <div className="base-container" ref={this.props.containerRef}>
-        <div className="header" style={{ marginTop: "25%" }}>
-          Register
-        </div>
+        <div className="header">Register</div>
         <div className="content">
           <div className="image" style={{ marginTop: "5%" }}>
             <img src={loginImg} />
@@ -31,7 +29,7 @@ export class Register extends React.Component {
             </div>
           </div>
         </div>
-        <div className="footer" style={{ marginBottom: 30 }}>
+        <div className="footer">
           <button type="button" className="btn">
             Register
           </button>
@@ -40,3 +38,4 @@ export class Register extends React.Component {
     );
   }
 }
+export default Register;

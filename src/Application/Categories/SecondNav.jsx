@@ -4,7 +4,11 @@ import { Link, withRouter } from "react-router-dom";
 class SecondNav extends Component {
   state = {
     categories: [
-      { id: "covid_essentials", name: "Covid Essentials", link: "covid" },
+      {
+        id: "covid_essentials",
+        name: "Covid Essentials",
+        link: "covid_essentials",
+      },
       { id: "mom_baby", name: "Mom & Baby", link: "mom_baby" },
       { id: "eyewear", name: "EyeWear", link: "eyewear" },
       { id: "ayush", name: "Ayush", link: "ayush" },
@@ -15,12 +19,12 @@ class SecondNav extends Component {
       {
         id: "sexual_wellness",
         name: "Sexual Wellness",
-        link: "/non-prescription/sexual_wellness",
+        link: "sexual_wellness",
       },
       {
         id: "treatments",
         name: "Treatments",
-        link: "/non-prescription/treatments",
+        link: "treatments",
       },
     ],
   };

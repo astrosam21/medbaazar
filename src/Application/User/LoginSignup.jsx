@@ -1,6 +1,7 @@
 import React from "react";
+import Login from "./login/login";
+import Register from "./login/register";
 import "./LoginSignup.scss";
-import { Login, Register } from "./login/index";
 
 class LoginSignup extends React.Component {
   constructor(props) {
@@ -37,7 +38,11 @@ class LoginSignup extends React.Component {
     return (
       <div className="App">
         <div className="login">
-          <div className="container" ref={(ref) => (this.container = ref)}>
+          <div
+            className="container"
+            ref={(ref) => (this.container = ref)}
+            style={{ marginBottom: 30, paddingBottom: 30 }}
+          >
             {isLogginActive && (
               <Login containerRef={(ref) => (this.current = ref)} />
             )}
@@ -63,7 +68,6 @@ const RightSide = (props) => {
       className="right-side"
       ref={props.containerRef}
       onClick={props.onClick}
-      style={{ margin: 20 }}
     >
       <div className="inner-container">
         <div className="text">{props.current}</div>

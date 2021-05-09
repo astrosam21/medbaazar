@@ -1,7 +1,7 @@
 import React from "react";
 import loginImg from "../login.png";
-
-export class Login extends React.Component {
+import "./style.scss";
+class Login extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -34,3 +34,4 @@ export class Login extends React.Component {
     );
   }
 }
+export default Login;

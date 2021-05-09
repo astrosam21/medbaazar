@@ -2,6 +2,7 @@ import React from "react";
 import { Link, Route, Switch, useParams } from "react-router-dom";
 import useReactRouter from "use-react-router";
 
+import { connect } from "react-redux";
 import { fade, makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -41,6 +42,7 @@ import Treatments from "../../Categories/Treatments/Treatments";
 import ItemDetails from "../../Components/Products/ItemDetails";
 import Cart from "../../Components/Products/Cart/Cart";
 import Accordian from "../../../MedComponents/Accordian";
+import { logOut } from "../../../Action/Application/User/UserActions";
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -125,7 +127,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function TopHeader() {
+function TopHeader(props) {
+  console.log(props);
   const data = [
     {
       id: "ayush",
@@ -685,6 +688,15 @@ export default function TopHeader() {
     >
       <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
       <MenuItem onClick={handleMenuClose}>My account</MenuItem>
+
+      <MenuItem
+        onClick={() => {
+          handleMenuClose();
+          props.logOut();
+        }}
+      >
+        Log Out
+      </MenuItem>
     </Menu>
   );
 
@@ -808,8 +820,9 @@ export default function TopHeader() {
                 simple
                 size="lg"
                 onClick={(e) => {
-                  handleProfileMenuOpen(e);
-                  history.push("/LoginSignup/refsgrfd243546");
+                  if (props.isLoggedIn) {
+                    handleProfileMenuOpen(e);
+                  } else history.push("/LoginSignup/refsgrfd243546");
                 }}
               >
                 <AccountCircle style={{ height: 40, width: 40 }} />
@@ -923,21 +936,27 @@ export default function TopHeader() {
           <Route exact path="/" component={Homepage} />
           <Route exact path="/non/:itemName" component={ItemDetails} />
           <Route exact path="/mycart" component={Cart} />
-          <GridContainer style={{ marginTop: 20 }}>
-            <GridItem></GridItem>
-            <GridItem>
-              <Route
-                exact
-                path="/non-prescription/:secondLink"
-                component={Ayush}
-              />
-            </GridItem>
-          </GridContainer>
         </Switch>
+        {renderMobileMenu}
+        {renderMenu}
       </div>
     </div>
   );
 }
+
+const mapStateToProps = (state) => {
+  return {
+    isLoggedIn: state.mainReducer.isLoggedIn,
+    accountId: state.authReducer.auth.account.accountId,
+  };
+};
+const mapDispatchToProps = (dispatch) => {
+  return {
+    logOut: () => logOut(dispatch),
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(TopHeader);
 
 // {
 //   console.log(active);
