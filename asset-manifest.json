@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/medbaazar/static/css/main.4be3cf55.chunk.css",
-    "main.js": "/medbaazar/static/js/main.cc0149e9.chunk.js",
-    "main.js.map": "/medbaazar/static/js/main.cc0149e9.chunk.js.map",
+    "main.js": "/medbaazar/static/js/main.7feb0587.chunk.js",
+    "main.js.map": "/medbaazar/static/js/main.7feb0587.chunk.js.map",
     "runtime-main.js": "/medbaazar/static/js/runtime-main.251d0af5.js",
     "runtime-main.js.map": "/medbaazar/static/js/runtime-main.251d0af5.js.map",
     "static/css/2.4b3dd924.chunk.css": "/medbaazar/static/css/2.4b3dd924.chunk.css",
     "static/js/2.fa07660f.chunk.js": "/medbaazar/static/js/2.fa07660f.chunk.js",
     "static/js/2.fa07660f.chunk.js.map": "/medbaazar/static/js/2.fa07660f.chunk.js.map",
     "index.html": "/medbaazar/index.html",
-    "precache-manifest.892ced0b087f030c6d3c3e785eadde79.js": "/medbaazar/precache-manifest.892ced0b087f030c6d3c3e785eadde79.js",
+    "precache-manifest.4b80510c67b2e8ab23d30bac0c328d9b.js": "/medbaazar/precache-manifest.4b80510c67b2e8ab23d30bac0c328d9b.js",
     "service-worker.js": "/medbaazar/service-worker.js",
     "static/css/2.4b3dd924.chunk.css.map": "/medbaazar/static/css/2.4b3dd924.chunk.css.map",
     "static/css/main.4be3cf55.chunk.css.map": "/medbaazar/static/css/main.4be3cf55.chunk.css.map",
@@ -25,6 +25,6 @@
     "static/css/2.4b3dd924.chunk.css",
     "static/js/2.fa07660f.chunk.js",
     "static/css/main.4be3cf55.chunk.css",
-    "static/js/main.cc0149e9.chunk.js"
+    "static/js/main.7feb0587.chunk.js"
   ]
 }
