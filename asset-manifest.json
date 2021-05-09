@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/medbaazar/static/css/main.04451f24.chunk.css",
-    "main.js": "/medbaazar/static/js/main.5b1e0226.chunk.js",
-    "main.js.map": "/medbaazar/static/js/main.5b1e0226.chunk.js.map",
+    "main.css": "/medbaazar/static/css/main.4be3cf55.chunk.css",
+    "main.js": "/medbaazar/static/js/main.49b1f512.chunk.js",
+    "main.js.map": "/medbaazar/static/js/main.49b1f512.chunk.js.map",
     "runtime-main.js": "/medbaazar/static/js/runtime-main.251d0af5.js",
     "runtime-main.js.map": "/medbaazar/static/js/runtime-main.251d0af5.js.map",
     "static/css/2.4b3dd924.chunk.css": "/medbaazar/static/css/2.4b3dd924.chunk.css",
-    "static/js/2.81d4c045.chunk.js": "/medbaazar/static/js/2.81d4c045.chunk.js",
-    "static/js/2.81d4c045.chunk.js.map": "/medbaazar/static/js/2.81d4c045.chunk.js.map",
+    "static/js/2.aa0e09bd.chunk.js": "/medbaazar/static/js/2.aa0e09bd.chunk.js",
+    "static/js/2.aa0e09bd.chunk.js.map": "/medbaazar/static/js/2.aa0e09bd.chunk.js.map",
     "index.html": "/medbaazar/index.html",
-    "precache-manifest.39818988a2592afee77c6a2a2da17cc8.js": "/medbaazar/precache-manifest.39818988a2592afee77c6a2a2da17cc8.js",
+    "precache-manifest.5a71c0f08252a18817f4f0d53da64a1f.js": "/medbaazar/precache-manifest.5a71c0f08252a18817f4f0d53da64a1f.js",
     "service-worker.js": "/medbaazar/service-worker.js",
     "static/css/2.4b3dd924.chunk.css.map": "/medbaazar/static/css/2.4b3dd924.chunk.css.map",
-    "static/css/main.04451f24.chunk.css.map": "/medbaazar/static/css/main.04451f24.chunk.css.map",
-    "static/js/2.81d4c045.chunk.js.LICENSE.txt": "/medbaazar/static/js/2.81d4c045.chunk.js.LICENSE.txt",
+    "static/css/main.4be3cf55.chunk.css.map": "/medbaazar/static/css/main.4be3cf55.chunk.css.map",
+    "static/js/2.aa0e09bd.chunk.js.LICENSE.txt": "/medbaazar/static/js/2.aa0e09bd.chunk.js.LICENSE.txt",
     "static/media/Health.png": "/medbaazar/static/media/Health.e8a957d2.png",
     "static/media/Wellness1.png": "/medbaazar/static/media/Wellness1.5e9cea1e.png",
     "static/media/avatar.jpg": "/medbaazar/static/media/avatar.7a6bc100.jpg",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.251d0af5.js",
     "static/css/2.4b3dd924.chunk.css",
-    "static/js/2.81d4c045.chunk.js",
-    "static/css/main.04451f24.chunk.css",
-    "static/js/main.5b1e0226.chunk.js"
+    "static/js/2.aa0e09bd.chunk.js",
+    "static/css/main.4be3cf55.chunk.css",
+    "static/js/main.49b1f512.chunk.js"
   ]
 }
