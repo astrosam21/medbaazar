@@ -749,7 +749,7 @@ function TopHeader(props) {
           position="sticky"
         >
           <Toolbar className={classes.toolbar}>
-            <Link to="/">
+            <Link to="/medbaazar">
               <Typography className={classes.title} variant="h1" noWrap>
                 TheMedBazar
               </Typography>
@@ -933,7 +933,7 @@ function TopHeader(props) {
         // }}
         />
         <Switch>
-          <Route exact path="/" component={Homepage} />
+          <Route exact path="/medbaazar" component={Homepage} />
           <Route exact path="/non/:itemName" component={ItemDetails} />
           <Route exact path="/mycart" component={Cart} />
         </Switch>

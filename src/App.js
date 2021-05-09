@@ -51,7 +51,6 @@ class App extends React.Component {
       <div className="App">
         <div className={classes.container}>
           <TopHeader />
-
           <Route exact path="/LoginSignup/:userId" component={LoginSignup} />
           <Route
             exact
